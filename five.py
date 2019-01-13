@@ -19,17 +19,22 @@ import math
 import cv2 as cv
 import numpy as np
 import line_detection as ld
-
+import os
 '''
 Get five_lines positions.
 
 @param filename
     - the file that we want to predict
+
 @output 
     - directory: Output/Result_Five/
     - name: after + "filename"
-    - change: add additional colored lines
-@return - the positions of the five lines, top y position, and bottom y position
+    - change: add additional colored lines for the positions of five lines.
+
+@return y_position
+    - the top y positions of the five lines
+@return y_position_bottom
+    - the bottom y positions of the five lines
 '''
 def five_lines(filename):
     y_position =[];
@@ -44,7 +49,7 @@ def five_lines(filename):
         return -1;
     height, width = src.shape[:2]
     print("Original image size \nheight: ", height, "\nwidth: ", width)
-#####################################################################################
+    #####################################################################################
     # x: the horizon position of the top left
     # y: the vertical position of the top left
     # slide_w: the width of sliding window
@@ -65,7 +70,6 @@ def five_lines(filename):
                 cur_x = x[i];
                 while y < height-slide_h:
                     crop_img = src[y:y+slide_h, cur_x:cur_x+slide_w];
-                    # Display the image
                     line_number = ld.number_line(filename, cur_x, y, crop_img, slide_w, slide_h, False);
                     #print("the # of lines in segment regions: ", line_number);
                     if (line_number<5):
@@ -96,7 +100,9 @@ def five_lines(filename):
         cv.line(src, (0, y_position[i]), (width, y_position[i]), (0,0,255), 2)
         cv.line(src, (0, y_position_bottom[i]), (width, y_position_bottom[i]), (255,0,0), 2)
     # save result
-    store = "../Output/Result_Five/after_"+filename[10:];
+    basefilename = os.path.basename(filename);
+    #store = "../Output/Result_Five/after_"+filename[10:];
+    store = "../Output/Result_Five/after_"+basefilename;
     ##store = "Output/after_"+filename[8:];
     cv.imwrite(store,src);
     

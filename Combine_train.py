@@ -14,9 +14,11 @@ import random
 
 
 def main():
-    directory_2 = os.listdir("training_data/1030_trainData/");
+    #directory_1 = "C://Users//san34/Desktop/2018_summer/project/music_simulation_software/Scores/Output/1216_Symbol/";
+    directory_1 = "C://Users//san34//Desktop//2018_summer//project//music_recognization//training_data//0104_Symbol_RGB_2/";
+    directory_2 = os.listdir(directory_1);
     print(directory_2);
-    directory_1 = "training_data/1030_trainData/";
+    
     for i in range(0, len(directory_2)):
         image = [];
         file = os.listdir(directory_1+directory_2[i]);
@@ -29,6 +31,7 @@ def main():
                     final_filename = directory_1+directory_2[i]+"/"+file[file_index];
                     #final_filename = directory_1+directory_2[i]+"/"+str(file_index)+".png";
                     src = cv.imread(final_filename);
+                    src = cv.resize(src, (80, 200),0,0, cv.INTER_LINEAR)
                     height, width = src.shape[:2];
                     cv.rectangle(src, (0,0), (width, height), (255,0,0), 2);
                     image_h = src;
@@ -38,23 +41,16 @@ def main():
                     src = cv.imread(final_filename);
                     height, width = src.shape[:2];
                     cv.rectangle(src, (0,0), (width, height), (255,0,0), 2);
+                    src = cv.resize(src, (80, 200),0,0, cv.INTER_LINEAR)
                     image_h = np.hstack((image_h, src))
             if(k==0):
                 image = image_h;
             if(k!=0):
                 image = np.vstack((image, image_h));
-        store_filename = "Summary/1030_trainData/"+directory_2[i]+"_10x10.png";
-        
-        '''
-        for i in range(0, 12):
-            cv.line(image, (0, i*200), (1200, i*200), (0,0,0), 2)
-            cv.line(image, (i*120, 0), (i*120, 2000), (0,0,0), 2)
-        '''
-        
+        store_filename = "../Output/Train_Data_Summary/0104_Symbol_RGB_2/"+directory_2[i]+"_10x10.png";
         cv.imwrite(store_filename,image);
-    
-    
-    
-#############################################################
-
-main();
+        
+        
+        
+if __name__ == '__main__':    
+    main();
