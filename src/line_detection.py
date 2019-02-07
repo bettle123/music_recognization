@@ -5,8 +5,7 @@ finding with the Hough transform.
 we use this function HoughLines()
 
 
-ex. number_line(src)
-return 5 or 7 (depends on which method I use)
+
 a. The Standard Hough Transform
 It consists in pretty much what we just explained in the previous section.
 It gives you as result a vector of couples (θ,rθ)

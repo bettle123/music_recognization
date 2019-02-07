@@ -10,15 +10,13 @@ import sys, os
 '''
 Initialize a confusion matrix for the following work
 
-@param train_dir
-    - the training data directory, we use it to know how many classes are.
+@param classes
+    - the names of every class
 
 @return acc_matrix
     - the acc_matrix nxn with 0's.
 '''
-def InitConfMat(train_dir):
-    classes_dir = train_dir+"/";
-    classes = os.listdir(classes_dir);
+def InitConfMat(classes):
     
     acc_matrix = [];
     for i in range(0, len(classes)):

@@ -14,8 +14,7 @@ import random
 
 
 def main():
-    #directory_1 = "C://Users//san34/Desktop/2018_summer/project/music_simulation_software/Scores/Output/1216_Symbol/";
-    directory_1 = "C://Users//san34//Desktop//2018_summer//project//music_recognization//training_data//0104_Symbol_RGB_2/";
+    directory_1 = "C://Users//san34//Desktop//2018_summer//project//music_simulation_3D//CSE5542-Lab1-Solution//Output//picture//0202_Symbol_RGB_1//";
     directory_2 = os.listdir(directory_1);
     print(directory_2);
     
@@ -26,7 +25,7 @@ def main():
         for k in range(0, 10):
             image_h = [];
             for j in range(0, 10):
-                file_index = (k-1)*9+j;
+                file_index = random.randint(0,len(file));
                 if(j==0):
                     final_filename = directory_1+directory_2[i]+"/"+file[file_index];
                     #final_filename = directory_1+directory_2[i]+"/"+str(file_index)+".png";
@@ -47,7 +46,7 @@ def main():
                 image = image_h;
             if(k!=0):
                 image = np.vstack((image, image_h));
-        store_filename = "../Output/Train_Data_Summary/0104_Symbol_RGB_2/"+directory_2[i]+"_10x10.png";
+        store_filename = "../Output/Train_Data_Summary/0202_Symbol_RGB_1/"+directory_2[i]+"_10x10.png";
         cv.imwrite(store_filename,image);
         
         
