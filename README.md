@@ -1,14 +1,13 @@
-# Music Recognization
-@Author: Su, Ming Yi </br>
-@Date: 12/11/2018	</br>
+@Author: Su, Ming Yi
+@Date: 12/11/2018
 @Goal:
-	Use CNN model to do music recognization</br>
-@Library: tensorflow, OpenCV</br>
+	Use CNN model to do music recognization
+@Library: tensorflow, OpenCV
 
-How to run it: </br>
-	cd src </br>
-	python main.py </br>
-Directory: </br>
+How to run it:
+	cd src
+	python main.py
+Directory:
 	-Code_Store: store the previous codes
 	
 	-Learn: the programming files that I learned from others
