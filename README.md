@@ -36,7 +36,7 @@ Here is the pipeline for my project. <br/>
 ## ScreenShot6 - Simulate Training data
 !["ScreenShot6"](https://github.com/bettle123/music_recognization/blob/master/Output/CNN_Information/OpenGL.PNG)
 ## ScreenShot7 - Training Data
-!["ScreenShot7"](https://github.com/bettle123/music_recognization/blob/master/Output/CNN_Information/CNN_training.PNG)
+!["ScreenShot7"](https://github.com/bettle123/music_recognization/blob/master/Output/CNN_Information/TrainingData.PNG)
 
 ## ScreenShot7 - CNN architecture
 !["ScreenShot8"](https://github.com/bettle123/music_recognization/blob/master/Output/CNN_Information/CNN_architecture.PNG)
