@@ -33,7 +33,7 @@ Here is the pipeline for my project. <br/>
 !["ScreenShot3"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/scan_line.jpg)
 
 ## ScreenShot4 - 3. CNN classification
-!["ScreenShot4"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/CNN_result.PNG)
+!["ScreenShot4"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/result.PNG)
 
 ## ScreenShot5 - 4. Template Matching for pitch
 !["ScreenShot5"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/pitch.jpg)
@@ -49,6 +49,12 @@ Here is the pipeline for my project. <br/>
 ## ScreenShot8 - Training Process
 !["ScreenShot9"](https://github.com/bettle123/music_recognization/blob/master/Output/CNN_Information/CNN_training.PNG)
 
-## ScreenShot9 - Result of Real Test Case
-!["ScreenShot10"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/after_1.jpg)
+## ScreenShot9 - Result of Test Case 1
+!["ScreenShot10"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/result.PNG)
+
+## ScreenShot10 - Real Test Case 2
+!["ScreenShot11"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/scan_line.PNG)
+
+## ScreenShot11 - Result of Test Case 2
+!["ScreenShot12"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/result.PNG)
 
