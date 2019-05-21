@@ -1,0 +1,25 @@
+﻿  Cube.cpp
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\drawablespheresolution.h(20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\fileutility.h(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\perspectivetransformsolution.h(61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\perspectivetransformsolution.h(61): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\perspectivetransformsolution.h(62): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\perspectivetransformsolution.h(63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\examinercameranode.h(220): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\examinercameranode.h(221): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\debugrendervisitor.h(22): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\debugrendervisitor.h(29): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\debugrendervisitor.h(34): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\debugrendervisitor.h(41): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\debugrendervisitor.h(46): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(134): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(254): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(255): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(256): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(313): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(314): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(315): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(323): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\san34\desktop\2018_summer\project\music_simulation_3d\cse5542-lab1-solution\demoframework\cube.cpp(460): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  DemoFramework.vcxproj -> C:\Users\san34\Desktop\2018_summer\project\music_simulation_3D\CSE5542-Lab1-Solution\Debug\DemoFramework.exe
