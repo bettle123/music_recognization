@@ -10,11 +10,11 @@ Simulated the training data including illumination, rotation, scale, translation
 Increased diversity of training data and implemented image segmentation with music knowledge by OpenCV. </br>
 
 This project is my master project, there are five directories.
-	- music_recognization
-	- music_simulation_3D
-	- music_simulation_preprocess
-	- music_simulation_software
-	- Ouput
+	- music_recognization <br />
+	- music_simulation_3D <br />
+	- music_simulation_preprocess <br />
+	- music_simulation_software <br />
+	- Ouput <br />
 
 
 
@@ -53,7 +53,7 @@ Here is the pipeline for my project. <br/>
 !["ScreenShot10"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo1/result.PNG)
 
 ## ScreenShot10 - Real Test Case 2
-!["ScreenShot11"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/scan_line.PNG)
+!["ScreenShot11"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/scan_line.png)
 
 ## ScreenShot11 - Result of Test Case 2
 !["ScreenShot12"](https://github.com/bettle123/music_recognization/blob/master/Output/Demo2/result.PNG)
