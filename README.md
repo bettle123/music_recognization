@@ -9,7 +9,7 @@ Designed CNN architecture and trained CNN model by tensorflow. </br>
 Simulated the training data including illumination, rotation, scale, translation by OpenGL Phong shading. </br>
 Increased diversity of training data and implemented image segmentation with music knowledge by OpenCV. </br>
 
-This project is my master project, there are 6 directories.
+This project is my master project, there are 6 directories. <br/>
 	- music_recognization <br />
 	- music_simulation_3D <br />
 	- music_simulation_preprocess <br />
